@@ -1,0 +1,15 @@
+trayer -l \
+    --edge top \
+    --align right \
+    --margin 1 \
+    --widthtype request \
+    --padding 4 \
+    --distance 1 \
+    --iconspacing 2 \
+    --SetDockType true \
+    --SetPartialStrut true \
+    --expand true \
+    --transparent true \
+    --alpha 0 \
+    --tint 0x000000 \
+    --height 22
