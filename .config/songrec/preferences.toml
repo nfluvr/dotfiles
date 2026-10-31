@@ -1,0 +1,11 @@
+enable_notifications = false
+enable_background = true
+enable_systray = true
+enable_autostart = false
+start_minimized = false
+enable_mpris_v2 = true
+no_duplicates = false
+request_interval_secs_v3 = 8
+current_device_name = "alsa_output.pci-0000_04_00.6.analog-stereo.monitor"
+website_search_url = "https://www.youtube.com/results?search_query="
+website_search_text = "Search on YouTube"
