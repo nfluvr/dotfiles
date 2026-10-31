@@ -43,7 +43,7 @@ alias tree="eza --tree"
 alias vim="nvim"
 
 # ghcup-env
-[ -f "/home/ser/.ghcup/env" ] && . "/home/ser/.ghcup/env"
+[ -f "$HOME/.ghcup/env" ] && . "$HOME/.ghcup/env"
 
 # path
 path=(/usr/pgadmin4/bin $HOME/.cargo/bin $path)
