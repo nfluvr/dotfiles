@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# build xmonad
+cd "$HOME/.config/xmonad"
+stack build
+ln -f -T "$(stack exec -- which xmonad)" "$1"
+
+# build xmobar
+cd "$HOME/.config/xmobar"
+stack install
